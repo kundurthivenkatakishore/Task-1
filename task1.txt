@@ -1,0 +1,42 @@
+2)Write a blog on Difference between HTTP1.1 vs HTTP2
+
+  HTTP/1.1 was developed by Timpthy-Berners Lee in 1989 as a communication standard for world wide web.
+  It is a top level application protocol that exhanges information between a client computer and a local or remote web server.
+  A client sends a text based request to server using methods like Get and Post methids.The server sends an HTML page in response.
+  Client sends the request using get method,in response the server returns a html page.
+  
+  HTTP/2 was developed primarly by Google with the intension of web page load by using as compression,multiplexing,and prioritization.
+  From the beginning,many browsers supported this standardization effort,including Chrome,Opera,Internet Explorer,and Safar
+  
+  HTTP/1.1 keeps all requests and responses in plain text format where as HTTP/2 uses binary framing layer to encapsulate all the messages.
+  
+3)Write a blog about objects and its internal representation in Javascript
+
+Object-It is an Instance of a Class.
+A javascript object is an entity having properties and methods.
+Javascript is object based language,everything is an object in Javascript.
+We can create objects in javascript in 3 ways
+By using Object Literal
+Syntax:
+employee={id:102,name:"Shyam Kumar",salary:40000}  
+console.log(employee.id+" "+employee.name+" "+employee.salary);  
+By Creating an Instance
+Syntax:
+    let Objectname=new Classname("properties");
+    var emp=new Object();  
+    emp.id=101;  
+    emp.name="Ravi Malik";  
+    emp.salary=50000;  
+    console.log(emp.id+" "+emp.name+" "+emp.salary);  
+By using an Object Constructor
+we use this keyword here which refers to the current object
+function emp(id,name,salary){  
+this.id=id;  
+this.name=name;  
+this.salary=salary;  
+}  
+e=new emp(103,"Vimal Jaiswal",30000);
+console.log(e.id+" "+e.name+" "+e.salary);  
+
+We can define method in JavaScript object.But before defining method,we need to add property in the function with same name as method.
+
